@@ -1,0 +1,16 @@
+[project]
+name = "data-engineering-aufgabe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.5"
+dependencies = [
+    "apache-beam>=2.66.0",
+    "dotenv>=0.9.9",
+    "google-cloud-bigquery>=3.34.0",
+    "google-cloud-storage>=3.2.0",
+    "ipykernel>=6.29.5",
+    "pandas>=2.3.1",
+    "polars>=1.31.0",
+    "tqdm>=4.67.1",
+]
