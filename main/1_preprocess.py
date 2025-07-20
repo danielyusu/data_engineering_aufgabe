@@ -1,7 +1,7 @@
 """
 In the original files, we have 4 lines of meta data that disrupt the overall structure of CSV file and prevent being ingested to BigQuery.
 
-For this reason, those 4 lines at the top must be removed in order to ingest data at bigquery
+For this reason, those 4 lines at the top must be removed in order to ingest data at BigQuery
 and also Zeitstempel must be converted to a proper TIMESTAMP format.
 """
 
